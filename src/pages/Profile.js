@@ -1,16 +1,16 @@
 import React from 'react'
 
-import { IonPage, IonHeader, IonToolbar, IonTitle } from '@ionic/react'
+import SmallHeader from '../components/Header/SmallHeader'
+import LargeHeader from '../components/Header/LargeHeader'
+
+import { IonPage, IonContent } from '@ionic/react'
 
 const Profile = () =>
   <IonPage>
-    <IonHeader>
-      <IonToolbar>
-        <IonTitle>
-          Profile
-        </IonTitle>
-      </IonToolbar>
-    </IonHeader>
+    <SmallHeader title='Profile' />
+    <IonContent fullscreen>
+      <LargeHeader title='Profile' />
+    </IonContent>
   </IonPage>
 
 export default Profile

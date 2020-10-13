@@ -49,19 +49,19 @@ const App = () => {
             </IonTabButton>
             <IonTabButton tab='trending' href='/trending'>
               <IonIcon icon={listCircleOutline} />
-              <IonLabel>Home</IonLabel>
+              <IonLabel>Trending</IonLabel>
             </IonTabButton>
             <IonTabButton tab='submit' href='/submit'>
               <IonIcon icon={listCircleOutline} />
-              <IonLabel>Home</IonLabel>
+              <IonLabel>Submit</IonLabel>
             </IonTabButton>
             <IonTabButton tab='search' href='/search'>
               <IonIcon icon={listCircleOutline} />
-              <IonLabel>Home</IonLabel>
+              <IonLabel>Search</IonLabel>
             </IonTabButton>
             <IonTabButton tab='profile' href='/profile'>
               <IonIcon icon={listCircleOutline} />
-              <IonLabel>Home</IonLabel>
+              <IonLabel>Profile</IonLabel>
             </IonTabButton>
           </IonTabBar>
         </IonTabs>
